@@ -27,7 +27,7 @@
         android:adjustViewBounds="true"
         android:cropToPadding="true"
         android:scaleType="fitCenter"
-        app:srcCompat="@drawable/SWOTORSithEmpire" />
+        app:srcCompat="@drawable/swtorsithempire" />
 
     <TextView
         android:id="@+id/textView2"
@@ -42,21 +42,20 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView2"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="98dp"
         android:adjustViewBounds="false"
         android:cropToPadding="false"
-        app:srcCompat="@drawable/KaasCitadel" />
+        app:srcCompat="@drawable/kaascitadel"
+        android:layout_marginBottom="180dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentStart="true" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="95dp"
-        android:layout_marginEnd="201dp"
-        app:srcCompat="@drawable/Locatie" />
+        android:layout_marginBottom="14dp"
+        app:srcCompat="@drawable/locatie"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
